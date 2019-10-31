@@ -40,6 +40,7 @@ cenots7
 yum -y install epel-release && rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
 yum -y install ffmpeg-devel
 yum whatprovides autoconf automake aclocal
+yum -y install autoconf automake
 ```
 
 You can then build and install m3u8-segmenter by running
