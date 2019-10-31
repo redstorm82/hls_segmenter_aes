@@ -1,4 +1,4 @@
-改代码是在https://github.com/johnf/m3u8-segmenter基础上的修改和添加。
+该代码是在https://github.com/johnf/m3u8-segmenter基础上的修改和添加。
 
 原来的工具主要有两个问题：
 1. 切片的时间长度不能完全保证是参数传入的'-d'值
@@ -9,6 +9,10 @@ aes加密方式为：CBC, 128bit Key, pkcs7padding填充。（苹果的mediafile
 
 为ts文件实现aes加密机制运行方式：
 ./segmenter -i test.ts -d 10 -p seg -m seg.m3u8 -u '' -K "http://10.130.29.36/self.key"
+
+#编译方式
+./build.sh
+
 
 # Inactive and Deprecated
 
